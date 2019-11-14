@@ -1,0 +1,82 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+/* Changed color to standard black and white for readability */
+  font-size: 16px;/* Added body font size */
+  line-height: 1.2; /* Made line height more readable */
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+  font-size: 1.5em; /* Added nav font size to be 1.5x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+h1 {
+  font-size: 2em; /* Added nav font size to be 2x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+h3 {
+  font-size: 1.3em; /* Added H3 font size to be 1.3x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+p {
+  font-size: 100%; /* Added paragraph font size to be = to body font size */
+}
+
+a {
+  text-decoration: none; /* removed link underline */
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
+
+/* Added link interactivity */
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
